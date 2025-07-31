@@ -1,6 +1,14 @@
 h1{
     text-align: center;
-    text-decoration: solid;
+    text-decoration: wavy;
     font-size: 50px;
     font-weight: bolder;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to bottom, #9A0002,#9A0002,#9A0002, black);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text; /* para compatibilidad */
+  -webkit-text-fill-color: transparent; /* Safari */
+
 }
