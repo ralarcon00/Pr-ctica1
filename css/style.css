@@ -4,8 +4,19 @@ h1 {
   font-size: 50px;
   font-weight: bolder;
   font-style: oblique;
+  font-display: to-upper-case;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-image: linear-gradient(to bottom, #9A0002, #9A0002, #9A0002, black);
+  background-image: linear-gradient(to bottom, #053264, #053264, #053264, black);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text; /* para compatibilidad */
+  -webkit-text-fill-color: transparent; /* Safari */
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: bolder;
+  background-image: linear-gradient(to bottom, #053264, #053264, #053264, black);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text; /* para compatibilidad */
@@ -13,15 +24,42 @@ h1 {
 }
 
 body {
-  background-image: linear-gradient(to bottom, #efe6de, #ebe2da, #e7ddd5, #e3d9d1, #dfd5cd, #d5cbc3, #cbc1b9, #c1b7af, #aea59d, #9c938c, #8a827b, #78716b);
+  background-image: linear-gradient(to bottom, rgb(203, 255, 188) 0%, rgb(203, 255, 188) 0%, rgb(140, 179, 129) 76%, rgba(94, 120, 87, 0.98) 92%, rgba(94, 120, 87, 0.95) 100%);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
 }
 
 #NavbarBG {
-  background-image: linear-gradient(to bottom, #9A0002, #9A0002, #9A0002);
+  background-image: linear-gradient(to bottom, #053264);
   height: 100px;
+}
+
+.navbar-brand {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+#GF {
+  height: 1000px;
+  width: 1000px;
+}
+
+footer {
+  background: linear-gradient(to bottom, rgba(61, 61, 59, 0.71) 0%, rgb(61, 61, 59) 71%, rgb(55, 55, 53) 99%, rgb(0, 0, 0) 90%, rgb(0, 0, 0) 89%);
+}
+
+#fl {
+  max-width: 250px;
+  max-height: 250px;
+}
+
+#TextoFooter {
+  display: inline-block;
+}
+
+#cr {
+  color: azure;
+  font-size: large;
 }
 
 /*# sourceMappingURL=style.css.map */
