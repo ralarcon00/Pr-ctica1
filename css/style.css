@@ -39,6 +39,10 @@ body {
   max-width: 200px;
 }
 
+#Links {
+  color: #CBFFBC;
+}
+
 #GF {
   height: 1000px;
   width: 1000px;
